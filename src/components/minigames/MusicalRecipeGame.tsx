@@ -218,11 +218,25 @@ export default function MusicalRecipeGame({
         </div>
 
         <div className="flex-1 flex items-center justify-center">
-            <div className="flex justify-center gap-10">
+            <div className="
+                    flex
+                    flex-col
+                    md:flex-row
+                    justify-center
+                    items-center
+                    gap-12
+                    w-full
+                  ">
                 {tubes.map((tube) => (
                 <div
                     key={tube.id}
-                      className="flex items-center gap-4"
+                      className="
+                        flex
+                        flex-col
+                        md:flex-row
+                        items-center
+                        gap-4
+                      "
                 >
                     <motion.div
                     whileTap={{ scale: 0.95 }}
