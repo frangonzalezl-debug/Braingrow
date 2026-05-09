@@ -1,0 +1,252 @@
+import { ContentItem } from "./types";
+
+export const contentLibrary: ContentItem[] = [
+  // --- ATTENTION (6 items) ---
+  {
+    id: "att-1",
+    section: "focus",
+    title: "El Bosque de los Detalles",
+    subtitle: "Encuentra los 5 animales escondidos en el follaje.",
+    world: "nature",
+    goals: ["attention"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["soft", "medium", "intense"],
+    contentType: "observation_video",
+    questionTypes: ["visual_hunt"],
+    difficulty: 2
+  },
+  {
+    id: "att-2",
+    section: "explore",
+    title: "Constelaciones Perdidas",
+    subtitle: "Une las estrellas para formar la figura secreta.",
+    world: "space",
+    goals: ["attention"],
+    ageRange: [6, 10],
+    detoxCompatibility: ["soft", "medium", "intense"],
+    contentType: "interactive_game",
+    questionTypes: ["pattern_matching"],
+    difficulty: 3
+  },
+  {
+    id: "att-3",
+    section: "learn",
+    title: "Maestro del Camuflaje",
+    subtitle: "Cómo los pulpos engañan a la vista.",
+    world: "science",
+    goals: ["attention"],
+    ageRange: [8, 12],
+    detoxCompatibility: ["soft", "medium"],
+    contentType: "educational_clip",
+    questionTypes: ["memory_recall"],
+    difficulty: 4
+  },
+  {
+    id: "att-4",
+    section: "focus",
+    title: "Sinfonía Visual",
+    subtitle: "Toca solo cuando el color coincida con el sonido.",
+    world: "art",
+    goals: ["attention"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "rhythm_game",
+    questionTypes: ["reaction_time"],
+    difficulty: 5
+  },
+  {
+    id: "att-5",
+    section: "explore",
+    title: "Detective del Cuadro",
+    subtitle: "Encuentra las 3 diferencias en la obra de arte.",
+    world: "art",
+    goals: ["attention"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["soft", "medium", "intense"],
+    contentType: "image_puzzle",
+    questionTypes: ["spot_the_difference"],
+    difficulty: 2
+  },
+  {
+    id: "att-6",
+    section: "learn",
+    title: "Microscopio Mágico",
+    subtitle: "Explora texturas invisibles al ojo humano.",
+    world: "lab",
+    goals: ["attention"],
+    ageRange: [8, 12],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "immersive_exp",
+    questionTypes: ["observation"],
+    difficulty: 3
+  },
+
+  // --- PATIENCE (6 items) ---
+  {
+    id: "pat-1",
+    section: "focus",
+    title: "Respiración de Dragón",
+    subtitle: "Sigue el ritmo de la flama para calmar tu mente.",
+    world: "cinema",
+    goals: ["patience"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["soft", "medium", "intense"],
+    contentType: "meditation_animation",
+    questionTypes: ["breath_control"],
+    difficulty: 1
+  },
+  {
+    id: "pat-2",
+    section: "learn",
+    title: "El Crecimiento Lento",
+    subtitle: "Mira cómo una semilla se convierte en roble en cámara rápida.",
+    world: "nature",
+    goals: ["patience"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "timelapse_video",
+    questionTypes: ["reflection"],
+    difficulty: 2
+  },
+  {
+    id: "pat-3",
+    section: "explore",
+    title: "Escultor de Arena",
+    subtitle: "Espera a que la marea baje para terminar tu obra.",
+    world: "art",
+    goals: ["patience"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["soft", "medium"],
+    contentType: "delayed_reward_game",
+    questionTypes: ["waiting_task"],
+    difficulty: 3
+  },
+  {
+    id: "pat-4",
+    section: "focus",
+    title: "Cero Prisa",
+    subtitle: "Lleva la esfera al centro sin tocar las paredes que se mueven.",
+    world: "lab",
+    goals: ["patience"],
+    ageRange: [8, 12],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "precision_task",
+    questionTypes: ["impulse_control"],
+    difficulty: 5
+  },
+  {
+    id: "pat-5",
+    section: "learn",
+    title: "Artesanos del Tiempo",
+    subtitle: "Cómo se hacían los relojes hace 200 años.",
+    world: "history",
+    goals: ["patience"],
+    ageRange: [10, 12],
+    detoxCompatibility: ["soft", "medium"],
+    contentType: "historical_doc",
+    questionTypes: ["comprehension"],
+    difficulty: 4
+  },
+  {
+    id: "pat-6",
+    section: "explore",
+    title: "Estanque Zen",
+    subtitle: "Observa los peces y espera a que aparezca el pez dorado.",
+    world: "nature",
+    goals: ["patience"],
+    ageRange: [6, 10],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "ambient_obs",
+    questionTypes: ["sustained_attention"],
+    difficulty: 2
+  },
+
+  // --- REASONING (6 items) ---
+  {
+    id: "rea-1",
+    section: "explore",
+    title: "La Reacción en Cadena",
+    subtitle: "Coloca las piezas para que la canica llegue al final.",
+    world: "science",
+    goals: ["reasoning"],
+    ageRange: [8, 12],
+    detoxCompatibility: ["soft", "medium", "intense"],
+    contentType: "physics_puzzle",
+    questionTypes: ["cause_and_effect"],
+    difficulty: 4
+  },
+  {
+    id: "rea-2",
+    section: "learn",
+    title: "El Código Secreto",
+    subtitle: "Descifra el patrón para abrir la puerta del templo.",
+    world: "logic",
+    goals: ["reasoning"],
+    ageRange: [6, 12],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "logic_challenge",
+    questionTypes: ["pattern_recognition"],
+    difficulty: 3
+  },
+  {
+    id: "rea-3",
+    section: "focus",
+    title: "Orden en el Museo",
+    subtitle: "Ordena los eventos históricos de principio a fin.",
+    world: "history",
+    goals: ["reasoning"],
+    ageRange: [10, 12],
+    detoxCompatibility: ["soft", "medium"],
+    contentType: "sorting_game",
+    questionTypes: ["logical_sequencing"],
+    difficulty: 5
+  },
+  {
+    id: "rea-4",
+    section: "explore",
+    title: "Predicciones Galácticas",
+    subtitle: "Si el cohete va a esta velocidad, ¿dónde estará en 10 segundos?",
+    world: "space",
+    goals: ["reasoning"],
+    ageRange: [8, 12],
+    detoxCompatibility: ["medium", "intense"],
+    contentType: "calculation_game",
+    questionTypes: ["prediction"],
+    difficulty: 4
+  },
+  {
+    id: "rea-5",
+    section: "learn",
+    title: "Detectives de la Verdad",
+    subtitle: "Identifica cuál de estos hechos es falso usando pistas.",
+    world: "logic",
+    goals: ["reasoning"],
+    ageRange: [8, 12],
+    detoxCompatibility: ["soft", "medium", "intense"],
+    contentType: "mystery_solving",
+    questionTypes: ["deduction"],
+    difficulty: 5
+  },
+  {
+    id: "rea-6",
+    section: "focus",
+    title: "Fábrica de Hipótesis",
+    subtitle: "¿Qué pasaría si volcamos este vaso? Elige la respuesta lógica.",
+    world: "lab",
+    goals: ["reasoning"],
+    ageRange: [6, 10],
+    detoxCompatibility: ["soft", "medium"],
+    contentType: "situational_logic",
+    questionTypes: ["hypothesis_testing"],
+    difficulty: 3
+  }
+];
+
+export const mockAchievements = [
+  { id: "ach-1", title: "Ojo de Águila", icon: "🦅", goal: "attention", description: "Encontraste 50 detalles ocultos." },
+  { id: "ach-2", title: "Maestro Zen", icon: "🧘", goal: "patience", description: "Completaste 10 minutos de calma." },
+  { id: "ach-3", title: "Gran Pensador", icon: "🧠", goal: "reasoning", description: "Resolviste 20 acertijos lógicos." },
+  { id: "ach-4", title: "Explorador Veloz", icon: "🏃", goal: "attention", description: "Reaccionaste a tiempo en 5 retos." },
+  { id: "ach-5", title: "Semilla del Saber", icon: "🌱", goal: "patience", description: "Esperaste pacientemente 5 recompensas." },
+  { id: "ach-6", title: "Lógica de Acero", icon: "🔓", goal: "reasoning", description: "Descifraste 3 códigos complejos." },
+];
