@@ -142,7 +142,8 @@ export default function MusicalRecipeGame({
         bg-center
         bg-no-repeat
         relative
-        overflow-hidden
+        overflow-y-auto
+        overflow-x-hidden
     "
     style={{
         backgroundImage: "url('/backgrounds/music-lab.jpg')",
@@ -217,7 +218,7 @@ export default function MusicalRecipeGame({
         </p>
         </div>
 
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex justify-center py-10">
             <div className="
                     flex
                     flex-col
