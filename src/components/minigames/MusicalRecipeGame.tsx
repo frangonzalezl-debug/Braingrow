@@ -240,7 +240,16 @@ export default function MusicalRecipeGame({
                 >
                     <motion.div
                     whileTap={{ scale: 0.95 }}
-                    className="relative w-36 h-[28rem] flex items-end justify-center"
+                    className="
+                      relative
+                      w-24
+                      md:w-36
+                      h-[18rem]
+                      md:h-[28rem]
+                      flex
+                      items-end
+                      justify-center
+                    "
                     >
                     {/* SOMBRA */}
                     <div className="absolute bottom-0 w-28 h-6 bg-black/40 blur-2xl rounded-full" />
@@ -249,8 +258,10 @@ export default function MusicalRecipeGame({
                     <div
                         className="
                         relative
-                        w-28
-                        h-[29rem]
+                        w-16
+                        md:w-28
+                        h-[18rem]
+                        md:h-[29rem]
                         rounded-b-[3.5rem]
                         rounded-t-[2rem]
                         overflow-hidden
@@ -315,13 +326,13 @@ export default function MusicalRecipeGame({
 
                     {/* TEXTO */}
                     <div className="absolute inset-0 flex items-center justify-center z-40">
-                        <span className="text-4xl font-black text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.8)]">
+                        <span className="text-2xl md:text-4xl font-black text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.8)]">
                         {getNoteData(tube.level).label}
                         </span>
                     </div>
                     </motion.div>
 
-                    <div className="flex flex-col gap-4 w-40">
+                    <div className="flex flex-col gap-3 w-28 md:w-40">
                     {tubes
                         .filter((t) => t.id !== tube.id)
                         .map((target) => (
